@@ -13,10 +13,23 @@
     <p>Abra este site em outros dispositivos ou mude o tamanho da tela</p>
 
     <picture>
-        <source media="(max-width:750px )" srcset="foto-p.png" type="image/png">
+        <source media="(max-width:px 740)" srcset="foto-p.png" type="image/png">
         <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png ">
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+
+    <hr>
+
+    <h1>Reproduzindo aúdios</h1>
+    <!--<audio src="midias/happy-mistake.mp3" controls autoplay></audio>-->
+    <!--MP3 WAV OGG-->
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador não consgue reproduzir aúdio <a href="midias/guanacast-33.mp3" download="midias/guanacast-33">clique aqui para reproduzir o aúdio</a></p>
+    </audio>
+
+    
 </body>
 
 </html>
